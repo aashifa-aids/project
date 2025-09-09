@@ -1,18 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Button Click Example</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Server AIDS Study Materials</title>
+<style>
+  body {
+    background-color: #cce8fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #034078;
+  }
+  h1 {
+    text-align: center;
+    color: #014f86;
+    text-shadow: 1px 1px 2px #ffffff;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #e1f0ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #b0cfe8;
+    padding: 20px;
+  }
+  .container b {
+    font-size: 1.3rem;
+  }
+  a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #014f86;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  a:hover {
+    background-color: #026bdd;
+    transform: scale(1.05);
+  }
+  a:active {
+    background-color: #013659;
+  }
+</style>
 </head>
 <body>
-  <button id="openBtn">Click Me!</button>
-  <button id="aiBtn">Artificial Intelligence</button>
-  <button id="uhveBtn">UHVE</button>
-  <button id="dbBtn">Database System</button>
-  <button id="mathsBtn">Maths</button>
-  <button id="algoBtn">Algorithms</button>
-  <div id="message" style="display:none;">You clicked the button!</div>
-  <script src="main.js"></script>
+  <div class="container">
+    <h1>AIDS Study Materials</h1>
+    <b>Select your study material:</b>
+    <a href="c:\Users\akbar\Downloads\Course Materials Module-1.pdf" target="_blank">1. AI Material</a>
+    <a href="c:\Users\akbar\Downloads\R2023-2301HSX01 UHVE (UNIT I & V). - Revised.pdf" target="_blank">2. UHVE Materials</a>
+    <a href="c:\Users\akbar\Downloads\2301GEX05 - ADLD 5 Unit Material.pdf" target="_blank">3. ADLD Material</a>
+    <a href="c:\Users\akbar\Downloads\II AIDS COURSE PLAN.pdf" target="_blank">4. MATHS Material</a>
+    <a href="c:\Users\akbar\Downloads\Efficiency classes.pdf" target="_blank">5. DAA Material</a>
+    <a href="c:\Users\akbar\Downloads\DB module1 material.pdf" target="_blank">6. DBMS Material</a>
+  </div>
 </body>
 </html>
